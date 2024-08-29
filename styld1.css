@@ -1,0 +1,111 @@
+
+body{
+    background: linear-gradient(100deg,#7a08e4,#8be1a522 100%);
+    margin: 0px;
+    padding: 0px;
+}
+        
+.header{
+    background-color: hsl(65, 85%, 55%);
+    height: 70px;
+    margin: 10px;
+}
+@media (max-width:1200px) {
+    .header  {
+        height: 100%;
+        flex-direction: column;
+    }
+}
+nav ul li {
+    list-style-type: nome;
+    display: inline-block;
+    padding: 10px;
+
+}
+ul li a {
+    color: #fff;
+    letter-spacing: 0.1rem;
+
+}
+ul li a:hover{
+    color: #ffd358;
+    text-decoration: underline;
+
+}
+.menu li{
+    float: left;
+    padding: 35px;
+}
+.menu li a{
+    text-decoration: none;
+}
+form{
+    padding: 35px;
+    text-align: right;  
+}
+input[type='sercche'] {
+    font-size: 17px;
+}
+img{
+    height: 30em;
+    width: 100%;
+    transition: all 0,15s ease;
+    font-size: 12px;
+  }
+.welcome {
+    margin-bottom: 40px;
+    color: hsl(0, 11%, 9%);
+    text-align: center;
+   }
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+article {
+    background-color: #546fe6;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+article h2 {
+    color:#fff;
+    margin-bottom: 10px;
+}
+
+article p {
+    color:#fff;
+}
+article a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: hsl(71, 89%, 56%);
+    text-decoration: none;
+}
+.img3{
+    width: 20em;
+    height: 20em;
+}
+.img4{
+    width: 25em;
+    height: 20em;
+}
+footer {
+    text-align: center;
+    margin-top: 80px;
+    padding: 10px;
+    background-color:#ffd358;
+    color: #fff;
+    height: 80px;
+    margin: 10px;
+}
+h2 {
+    text-align: center;
+}
+
+    
+   
+    
+
+    

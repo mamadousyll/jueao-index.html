@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: #287265;
+    height: 70px;
+    margin: 10px;
+  
+}
+
+@media (max-width:1200px) {
+    .header  {
+        height: 100%;
+        flex-direction: column;
+    }
+}
+
+
+
+nav ul li {
+    list-style-type: nome;
+    display: inline-block;
+    padding: 10px;
+}
+ul li a {
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
+ul li a:hover{
+    color: #ffd358;
+    text-decoration: underline;
+}
+.menu li{
+    float: left;
+    padding: 35px;
+}
+.menu li a{
+    text-decoration: none;
+}
+form{
+    padding: 35px;
+    text-align: right;
+    
+}
+input[type='sercche'] {
+    font-size: 17px;
+}
+.welcome {
+    padding: 10px;
+    color: rgb(255, 119, 0);
+   
+    text-align: center;
+    font-size: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 80px;
+    padding: 10px;
+    background-color: #287265;
+    color: #fff;
+    height: 80px;
+    margin: 10px;
+}
+
+
+.div6,  h2  {
+    display: ruby;
+    width: 12em;
+    background-color: #287265;
+    color: #fff;
+     text-align: center;
+    
+}
+.div {
+    text-align: center;
+    color: blue;
+}
+.div2 {
+    text-align: center;
+    font-size: 15px;
+}
+.bloc  { 
+  
+    font-size: 1,3em;
+  }
+/* For mobile phones: */ 
+[class*="col-"] {
+    width: 100%;
+  }
+  @media only screen and (min-width: 1499px) {
+    .col-s-1 {width: 90%;}
+  }
+  .bloc{
+    font-size: 0,9em;
+  }
+  .h3{
+    text-align: center;
+    margin: 2PX;
+    padding: 10px;
+  }
+
+
+
